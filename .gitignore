@@ -1,0 +1,68 @@
+# Xcode
+#
+# gitignore contributors: remember to keep alphabetical order and sync with
+# https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+# latest changes v.1.1 April 19, 2023
+
+## User-specific configurations
+*.xcuserdatad/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.scheme
+xcuserdata/
+
+## Build generated
+DerivedData/
+Build/
+build/
+*.app
+*.ipa
+*.dSYM/
+
+## Various settings
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.llbuild
+*.modulemap
+*.pch
+*.swiftdoc
+*.swiftmodule
+
+# Swift Package Manager
+#
+# Add this line if you plan to use Swift Package Manager
+# and don't want to commit the resolved dependencies.
+# Package.resolved
+.build/
+.swiftpm/
+
+# Carthage
+#
+# Add this line if you use Carthage
+# https://github.com/Carthage/Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# CocoaPods
+#
+# Add this line if you use CocoaPods
+# https://cocoapods.org/
+Pods/
+*.podspec.json
+
+# Secrets - **NEVER** commit files containing sensitive data
+# *.secret
+# *.plist
+
+# macOS / System Files
+.DS_Store
+._*
+*.AppleDouble
+
